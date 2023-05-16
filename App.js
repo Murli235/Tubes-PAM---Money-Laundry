@@ -1,17 +1,19 @@
-import splash from "./screen/splash";
-import Home from "./screen/Home";
-import login from "./screen/login";
-import register from "./screen/register";
-import History from "./screen/history";
-import pengantaran from "./screen/pengantaran";
-import Akun from "./screen/Akun";
-import Menu from "./screen/Menu";
-import Pemesanan from "./screen/Pemesanan";
-import Satuan from "./screen/Satuan";
-import Kiloan from "./screen/Kiloan";
-import pembayaransatuan from "./screen/pembayaransatuan";
-import pembayarankiloan from "./screen/pembayarankiloan";
-import imagepic from "./screen/imagepic";
+import {
+  Home,
+  splash,
+  login,
+  register,
+  History,
+  pengantaran,
+  Akun,
+  Menu,
+  Pemesanan,
+  Satuan,
+  Kiloan,
+  pembayaransatuan,
+  pembayarankiloan,
+  imagepic,
+} from "./screen";
 
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
