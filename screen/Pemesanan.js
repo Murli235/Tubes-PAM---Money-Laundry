@@ -112,7 +112,7 @@ const pemesanan = ({ navigation }) => {
           </TouchableOpacity>
 
           <TouchableOpacity
-            onPress={() => Linking.openURL("https://wa.me/6281265856114")}
+            onPress={() => Linking.openURL("https://wa.me/6285157489266")}
           >
             <Ionicons
               name="md-chatbox-ellipses-outline"
