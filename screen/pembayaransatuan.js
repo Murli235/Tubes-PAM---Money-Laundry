@@ -116,21 +116,35 @@ const history = ({ navigation }) => {
         <View style={styles.header}>
           <TouchableOpacity onPress={() => navigation.goBack()}>
             <View style={{ alignItems: "flex-start", left: 20, top: 90 }}>
-              <AntDesign name="back" size={30} color="black" />
+              <AntDesign name="back" size={30} color="white" />
             </View>
           </TouchableOpacity>
-          <Text style={{ fontWeight: "bold", fontSize: 25, top: 60, left: 60 }}>
+          <Text
+            style={{
+              fontWeight: "bold",
+              fontSize: 25,
+              top: 60,
+              left: 60,
+              color: "white",
+            }}
+          >
             Checkout Satuan
           </Text>
           <Image
-            style={{ top: -10, left: 240 }}
-            source={require("../assets/kitalaundry.png")}
+            style={{ top: 10, left: 260 }}
+            source={require("../assets/logo.png")}
           ></Image>
         </View>
 
         <View style={styles.border}>
           <Text
-            style={{ fontWeight: "bold", fontSize: 18, top: 15, left: 110 }}
+            style={{
+              fontWeight: "bold",
+              fontSize: 18,
+              top: 15,
+              left: 110,
+              color: "white",
+            }}
           >
             Pembayaran
           </Text>
@@ -175,7 +189,8 @@ const history = ({ navigation }) => {
             <Text
               style={{
                 alignSelf: "center",
-                backgroundColor: "#89CFF0",
+                backgroundColor: "#185E46",
+                color: "white",
                 padding: 15,
                 paddingHorizontal: 100,
                 borderRadius: 30,
