@@ -26,7 +26,7 @@ const history = ({ navigation }) => {
               <AntDesign
                 name="back"
                 size={30}
-                color="black"
+                color="white"
                 style={styles.button}
               />
             </View>
@@ -37,13 +37,14 @@ const history = ({ navigation }) => {
               fontSize: 30,
               top: 50,
               left: 80,
+              color: "white",
               letterSpacing: 1,
             }}
           >
             Satuan
           </Text>
           <Image
-            style={{ width: 200, height: 65, left: 230, top: -30 }}
+            style={{ width: 200, height: 65, left: 230, top: -10 }}
             source={require("../assets/logo.png")}
           ></Image>
         </View>
@@ -56,6 +57,7 @@ const history = ({ navigation }) => {
               top: -35,
               left: 45,
               right: 30,
+              color: "white",
             }}
           >
             Total Biaya Laundry
@@ -71,6 +73,7 @@ const history = ({ navigation }) => {
               top: -40,
               left: 50,
               right: 30,
+              color: "white",
             }}
           >
             No Pesanan : XXX
@@ -82,15 +85,16 @@ const history = ({ navigation }) => {
               top: -30,
               left: 20,
               right: 30,
+              color: "white",
             }}
           >
-            Masukkan Jumlah Potong Pakaian
+            Masukkan Jumlah KG
           </Text>
           <TextInput
             style={styles.input}
             placeholder="Masukkan Jumlah berat"
             textAlign="center"
-            placeholderTextColor="black"
+            placeholderTextColor="white"
           />
 
           <Text
@@ -99,6 +103,7 @@ const history = ({ navigation }) => {
               top: -65,
               left: 20,
               right: 30,
+              color: "white",
             }}
           >
             pastikan jumlah barang sudah benar
@@ -110,6 +115,7 @@ const history = ({ navigation }) => {
               top: -25,
               left: 35,
               right: 30,
+              color: "white",
             }}
           >
             Harga Per potong Rp.5000.-
@@ -129,7 +135,7 @@ const history = ({ navigation }) => {
             <Text
               style={{
                 alignSelf: "center",
-                backgroundColor: "#89CFF0",
+                backgroundColor: "#185E46",
                 padding: 15,
                 paddingHorizontal: 100,
                 borderRadius: 30,
@@ -138,6 +144,7 @@ const history = ({ navigation }) => {
                 fontWeight: "bold",
                 borderWidth: 1,
                 borderColor: "#FFF",
+                color: "white",
               }}
             >
               Konfirmasi Pembayaran
@@ -168,7 +175,7 @@ const styles = StyleSheet.create({
     backgroundColor: "rgba(148, 215, 244, 0.8)",
   },
   header: {
-    backgroundColor: "#CDD8E3",
+    backgroundColor: "#185E46",
     borderRadius: 10,
     width: "100%",
     height: "18%",
