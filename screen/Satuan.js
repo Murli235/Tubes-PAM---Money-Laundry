@@ -44,7 +44,7 @@ const history = ({ navigation }) => {
             Satuan
           </Text>
           <Image
-            style={{ width: 200, height: 65, left: 230, top: -10 }}
+            style={{ top: 10, left: 260 }}
             source={require("../assets/logo.png")}
           ></Image>
         </View>
@@ -143,7 +143,7 @@ const history = ({ navigation }) => {
                 fontSize: 15,
                 fontWeight: "bold",
                 borderWidth: 1,
-                borderColor: "#FFF",
+                borderColor: "#80D8A8",
                 color: "white",
               }}
             >
