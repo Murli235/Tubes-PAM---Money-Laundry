@@ -155,7 +155,7 @@ const history = ({ navigation }) => {
     </ImageBackground>
   );
 };
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ //CSS
   container: {
     flex: 1,
   },
